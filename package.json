@@ -1,7 +1,7 @@
 {
-  "title": "Bacon AMD Template",
-  "name": "bacon-amd-template",
-  "description": "Template for Bacon.js including bundling and AMD using Bower, NPM, Require.js (and r.js), Almond, etc.",
+  "title": "Bacon-React AMD Template",
+  "name": "bacon-react-amd-template",
+  "description": "Template for Bacon.js and React including bundling and AMD using Bower, NPM, Require.js (and r.js), Almond, etc.",
   "version": "0.0.1",
   "author": {
     "name": "Miko Kiiski",

@@ -1,14 +1,15 @@
 {
-  "name": "vera-ui",
+  "name": "bacon-react-amd-template",
   "version": "0.0.1",
   "dependencies": {
-    "underscore" : "",
+    "underscore": "",
     "jquery": "",
     "requirejs": "",
     "jquery-ui": "",
     "almond": "",
     "bacon": "",
     "bacon.jquery": "",
-    "bacon.model": ""
+    "bacon.model": "",
+    "react": "~0.12.2"
   }
 }

@@ -1,17 +1,26 @@
 define(function(require) {
   var $ = require('jquery');
-  var bjq = require('bjq')
+  var bjq = require('bjq');
+  var Bacon = require('bacon');
+  var React = require('react');
 
   return {
     init: init
   };
 
   function init() {
-    $button = $('<button/>', {id: 'button', text: 'Click mich!'});
-    $('body').append($button);
+    var clickBus = new Bacon.Bus().log('click');
 
-    $button.asEventStream('click').flatMap(function(event) {
-      return event.target;
-    }).log()
+    React.render(
+        React.createElement('button',
+            {
+              id: 'button',
+              onClick: function(event) {
+                clickBus.push(event)
+              }
+            },
+            'Click mich!'),
+        document.body
+    );
   }
 });

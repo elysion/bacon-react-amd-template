@@ -6,7 +6,8 @@ requirejs.config({
     "hbs": "lib/require-handlebars-plugin/hbs",
     "bacon": "lib/Bacon/dist/Bacon",
     "bjq": "lib/bacon.jquery/dist/bacon.jquery",
-    "bacon.model": "lib/bacon.model/dist/bacon.model"
+    "bacon.model": "lib/bacon.model/dist/bacon.model",
+    "react": "lib/react/react-with-addons"
   },
   "shim": {
     "underscore": {
