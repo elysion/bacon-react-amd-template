@@ -14,4 +14,4 @@ requirejs.config({
       "exports": '_'
     }
   }
-});
+})
