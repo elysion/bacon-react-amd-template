@@ -1,0 +1,14 @@
+{
+  "name": "vera-ui",
+  "version": "0.0.1",
+  "dependencies": {
+    "underscore" : "",
+    "jquery": "",
+    "requirejs": "",
+    "jquery-ui": "",
+    "almond": "",
+    "bacon": "",
+    "bacon.jquery": "",
+    "bacon.model": ""
+  }
+}
