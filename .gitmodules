@@ -2,3 +2,7 @@
 	path = button-example
 	url = https://github.com/elysion/bacon-react-amd-template
 	branch = master
+[submodule "example2"]
+	path = sync-example
+	url = https://github.com/elysion/bacon-react-amd-template
+	branch = sync
