@@ -10,5 +10,8 @@
   "devDependencies": {
     "bower": "latest",
     "requirejs": "latest"
+  },
+  "scripts": {
+    "bundle": "r.js -o build.js && r.js -o css.build.js" 
   }
 }
