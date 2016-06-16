@@ -1,4 +1,4 @@
 [submodule "example"]
-	path = bacon-react-amd-template
+	path = button-example
 	url = https://github.com/elysion/bacon-react-amd-template
 	branch = master
